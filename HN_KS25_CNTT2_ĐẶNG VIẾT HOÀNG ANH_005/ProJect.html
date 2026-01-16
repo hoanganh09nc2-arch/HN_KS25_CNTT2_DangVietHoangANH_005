@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Thư Viện</title>
+    <link rel="stylesheet" href="./ProJect.css">
+</head>
+<body>
+    <header class="tittle">
+        <h1>📚 THƯ VIỆN SINH VIÊN</h1>
+        <nav class="menu">
+            <a href="#home" class="listmenu">Trang Chủ</a>
+            <a href="#book" class="listmenu">Sách</a>
+            <a href="#contact" class="listmenu">Mượn Sách</a>
+            <a href="#contact" class="listmenu">Liên Hệ</a>
+        </nav>
+    </header>
+    <section class="banner" id="home">
+        <img src="./banner.jpg" alt="Hình ảnh minh họa">
+    </section>
+    <section class="intro">
+        <h2>📘 Giới thiệu thư viện</h2>
+        <p>Thư viện sinh viên là nơi lưu trữ và cung cấp các tài liệu học tập, nghiên cứu phục vụ sinh viên và giảng viên trong nhà trường.</p>
+    </section>
+    <section class="listbook" id="book">
+        <h2>📚 Danh mục sách</h2>
+        <div class="Book">
+            <div class="books">
+                <img src="./first book.jpg" alt="">
+                <p><strong>Lập trình web</strong> <br> Thể loại: CNTT</p>
+            </div>
+            <div class="books">
+                <img src="./second book.jpg" alt="">
+                <p><strong>Cơ sở dữ liệu</strong> <br> Thể loại: CNTT</p>
+            </div>
+            <div class="books">
+                <img src="./third book.jpg" alt="">
+                <p><strong>Kỹ năng học tập</strong> <br> Thể loại: Kỹ năng</p>
+            </div>
+            <div class="books">
+                <img src="./forth book.jpg" alt="">
+                <p><strong>Toán rời rạc</strong> <br> Thể loại: Toán học</p>
+            </div>
+        </div>
+    </section>
+    <section class="table">
+        <h2>📊Quản lí sách</h2>
+        <table border="1" cellspacing="0">
+            <tr>
+                <th>Mã sách</th>
+                <th>Tên sách</th>
+                <th>Tác giả</th>
+                <th>Tình trạng</th>
+            </tr>
+            <tr>
+                <td>S001</td>
+                <td>Lập trình Web</td>
+                <td>Nguyễn Văn A</td>
+                <td>Còn</td>
+            </tr>
+            <tr>
+                <td>S002</td>
+                <td>Cơ sở dữ liệu</td>
+                <td>Trần Thị B</td>
+                <td>Hết</td>
+            </tr>
+        </table>
+    </section>
+    <section class="contact" id="contact">
+        <h2>📝 Mượn sách</h2>
+        <div class="sign">
+            <input type="text" placeholder="Họ và tên">
+        </div>
+        <div class="sign">
+            <input type="text" placeholder="Mã sinh viên">
+        </div>
+        <div class="sign">
+            <input type="text" placeholder="Tên sách cần mượn">
+        </div>
+        <div class="sign">
+            <button type="submit">Gửi yêu cầu</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Thư viện Sinh viên</p>
+    </footer>
+</body>
+</html>
